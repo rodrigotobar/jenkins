@@ -6,5 +6,11 @@ pipeline {
         sh 'ls'
       }
     }
+    
+    stage('QA') {
+      steps {
+        sh 'ls'
+      }
+    }
   }
 }
