@@ -5,6 +5,9 @@ pipeline {
       steps {
         sh 'ls'
       }
+       steps {
+        sh 'ls'
+      }
     }
     
     stage('QA') {
